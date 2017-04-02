@@ -1,5 +1,5 @@
 def grid(x,y):
-    for xx in range(0 , y):
+    for yy in range(0 , y):
         sqh = '+ '+'- '*4
         sqeh = '+'
         sqv = '| '+'  '*4
@@ -10,5 +10,5 @@ def grid(x,y):
         print sqv*x+sqev
         print sqv*x+sqev
     print sqh*x+sqeh
-    
-grid(5,3)
+
+grid(9,9)
